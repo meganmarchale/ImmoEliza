@@ -1,0 +1,506 @@
+[
+  {
+    "SEOUrl": "string",
+    "cluster": {
+      "bedroomCountRange": {
+        "max": 0,
+        "min": 0
+      },
+      "priceRange": {
+        "max": 0,
+        "min": 0
+      },
+      "priceRangeVAT": {
+        "max": 0,
+        "min": 0
+      },
+      "projectInfo": {
+        "_groupId": 0,
+        "constructor": 0,
+        "deliveryDate": "string",
+        "groupId": 0,
+        "name": "string",
+        "phase": "string",
+        "soldPercentage": 0,
+        "soldPercentageMode": "string",
+        "unitsDisplayMode": "DETAILED"
+      },
+      "surfaceRange": {
+        "max": 0,
+        "min": 0
+      },
+      "units": [
+        {
+          "bedroomCountRange": {
+            "max": 0,
+            "min": 0
+          },
+          "items": [
+            {
+              "bedroomCount": 0,
+              "floor": 0,
+              "floorPlanCount": 0,
+              "id": 0,
+              "mnemonic": "APARTMENT_1BDR",
+              "phase": "string",
+              "pictureCount": 0,
+              "saleStatus": "AVAILABLE",
+              "isSoldOrRented": true,
+              "transactionType": "FOR_RENT",
+              "specificationCount": 0,
+              "subtype": "AGRICULTURAL_AREA",
+              "surface": 0,
+              "price": 0,
+              "newBuildsVAT": 0,
+              "newBuildsLandPrice": 0,
+              "newBuildsLandTaxes": 0,
+              "newBuildsTotalPrice": 0
+            }
+          ],
+          "priceRange": {
+            "max": 0,
+            "min": 0
+          },
+          "priceRangeVAT": {
+            "max": 0,
+            "min": 0
+          },
+          "soldUnitCount": 0,
+          "surfaceRange": {
+            "max": 0,
+            "min": 0
+          },
+          "type": "string"
+        }
+      ],
+      "standardUnits": {
+        "bedroomCount": 0,
+        "floorPlanCount": 0,
+        "items": 0,
+        "mnemonic": "APARTMENT_1BDR",
+        "pictureCount": 0,
+        "priceRange": {
+          "max": 0,
+          "min": 0
+        },
+        "priceRangeVAT": {
+          "max": 0,
+          "min": 0
+        },
+        "soldUnitCount": 0,
+        "specificationCount": 0,
+        "subtype": "AGRICULTURAL_AREA",
+        "surfaceRange": {
+          "max": 0,
+          "min": 0
+        },
+        "type": "string"
+      }
+    },
+    "customers": [
+      {
+        "contactInfo": [
+          {
+            "usage": "BUY",
+            "email": "string",
+            "landline": "string",
+            "mobile": "string",
+            "faxNumber": "string"
+          }
+        ],
+        "contactHours": {
+          "mobile": "AFTERNOON",
+          "landline": "AFTERNOON"
+        },
+        "id": 0,
+        "isOwner": true,
+        "location": {
+          "address": {
+            "country": "string",
+            "region": "BRUSSELS",
+            "province": "string",
+            "district": "string",
+            "locality": "string",
+            "postalCode": "string",
+            "street": "string",
+            "number": "string",
+            "box": "string",
+            "propertyName": "string"
+          },
+          "geoPoint": {
+            "latitude": 50.8063905,
+            "longitude": 4.3173854
+          }
+        },
+        "features": {
+          "page404": true,
+          "relatedClassifieds": true,
+          "investorFlag": true,
+          "leafletsCTA": true,
+          "leadQualification": true,
+          "recommendation": true
+        },
+        "publicInfo": {
+          "ipiNo": "string",
+          "logoUrl": "string",
+          "name": "string",
+          "contactHours": {
+            "mobile": "string",
+            "landline": "string"
+          },
+          "network": {
+            "id": "string",
+            "name": "string"
+          },
+          "notaryNetworkId": "NCH",
+          "website": "string"
+        },
+        "salesRepresentative": {
+          "name": "string",
+          "email": "string",
+          "landline": "string"
+        },
+        "type": "string"
+      }
+    ],
+    "flagsAndStatistics": {
+      "flags": {
+        "has360": true,
+        "hasVirtualTour": true,
+        "isALifeAnnuitySale": true,
+        "isALowEnergyBuilding": true,
+        "isAnInteractiveSale": true,
+        "isNewlyBuilt": true,
+        "isANewlyPublishedClassified": true,
+        "isANotarySale": true,
+        "isAPassiveBuilding": true,
+        "isAPropertyWithNewPrice": true,
+        "isAPublicSale": true,
+        "isUnderOption": true
+      },
+      "statistics": {
+        "bookmarkCount": 0,
+        "popularity": 0,
+        "viewCount": 0
+      }
+    },
+    "id": 0,
+    "externalReference": "string",
+    "property": {
+      "alternativeDescriptions": {
+        "en": "string",
+        "fr": "string",
+        "nl": "string"
+      },
+      "alternativeTitles": {
+        "en": "string",
+        "fr": "string",
+        "nl": "string"
+      },
+      "attic": {
+        "exists": true,
+        "isIsolated": true,
+        "surface": 0
+      },
+      "basement": {
+        "exists": true,
+        "surface": 0
+      },
+      "bathroom": {
+        "count": 0
+      },
+      "bedroom": {
+        "count": 0,
+        "hasDressingRoom": true,
+        "items": [
+          {
+            "surface": 0
+          }
+        ]
+      },
+      "building": {
+        "annexCount": 0,
+        "condition": "AS_NEW",
+        "constructionYear": 0,
+        "facadeCount": 0,
+        "floorCount": 0,
+        "hasSyndicator": true,
+        "sharedSpaces": "Laundry room, Bicycle storage",
+        "streetFacadeWidth": 0
+      },
+      "certificates": {
+        "builtPlanStatus": "NO",
+        "oilTankCertificateStatus": "YES_CONFORM",
+        "primaryEnergyConsumptionLevel": 0,
+        "globalThermalInsulationLevel": 0,
+        "hasElectricalInstallationComplianceCertificate": true,
+        "hasAsbestosCertificate": true,
+        "hasJudicialMeasure": true,
+        "hasSeparateElectricityMeter": true,
+        "hasSeparateGasMeter": true,
+        "hasSeparateWaterMeter": true,
+        "hasValidFloorCertificate": true
+      },
+      "commonEquipment": {
+        "hasCaretakerOrConcierge": true,
+        "hasDisabledAccess": true,
+        "hasLift": true,
+        "hasSecureAlarm": true
+      },
+      "constructionPermit": {
+        "alternativeUrbanPlanningInformations": {
+          "en": "string",
+          "fr": "string",
+          "nl": "string"
+        },
+        "constructionType": "ALL_KIND",
+        "floodZoneType": "NON_FLOOD_ZONE",
+        "gScore": "A",
+        "pScore": "A",
+        "hasObligationToConstruct": true,
+        "hasPlotDivisionAuthorization": true,
+        "hasPossiblePriorityPurchaseRight": true,
+        "hasCadastralPlan": true,
+        "hasFirstRefusalRight": true,
+        "isBreachingUrbanPlanningRegulation": true,
+        "isObtained": true,
+        "totalBuildableGroundFloorSurface": 0,
+        "urbanPlanningInformation": "string"
+      },
+      "description": "string",
+      "diningRoom": {
+        "exists": true
+      },
+      "laundryRoom": {
+        "exists": true
+      },
+      "energy": {
+        "hasCollectiveWaterHeater": true,
+        "hasDoubleGlazing": true,
+        "hasHeatPump": true,
+        "hasPhotovoltaicPanels": true,
+        "hasThermicPanels": true,
+        "heatingType": "CARBON"
+      },
+      "isHolidayProperty": true,
+      "kitchen": {
+        "isSetup": true,
+        "surface": 0,
+        "type": "USA_INSTALLED"
+      },
+      "land": {
+        "hasGasWaterElectricityConnection": true,
+        "hasPlotToRear": true,
+        "isFacingStreet": true,
+        "isFlat": true,
+        "isWooded": true,
+        "landDepth": 0,
+        "landWidth": 0,
+        "latestUseDesignation": "AGR",
+        "sewerConnection": "CONNECTED",
+        "surface": 0
+      },
+      "livingDescription": {
+        "netHabitableSurface": 0,
+        "roomCount": 0,
+        "fireplace": {
+          "count": 0,
+          "exists": true
+        }
+      },
+      "livingRoom": {
+        "exists": true,
+        "surface": 0
+      },
+      "location": {
+        "address": {
+          "box": "string",
+          "country": "string",
+          "countryCode": "BE",
+          "district": "string",
+          "floor": 0,
+          "locality": "string",
+          "number": "string",
+          "placeName": "string",
+          "postalCode": "string",
+          "propertyName": "string",
+          "province": "string",
+          "region": "string",
+          "regionCode": "string",
+          "street": "string"
+        },
+        "geoPoint": {
+          "latitude": 50.8063905,
+          "longitude": 4.3173854
+        },
+        "isPublic": true,
+        "surroundings": {
+          "hasSeaView": true,
+          "pointsOfInterest": [
+            {
+              "type": "SCHOOL",
+              "distance": 0
+            }
+          ],
+          "type": "FITTED_OUT"
+        }
+      },
+      "mnemonic": "APARTMENT_1BDR",
+      "monthlyCosts": 0,
+      "outdoor": {
+        "exists": true,
+        "garden": {
+          "exists": true,
+          "orientation": "NORTH",
+          "surface": 0
+        },
+        "holidayRentalsFeatures": {
+          "hasBalcony": true,
+          "hasBarbecue": true
+        },
+        "terrace": {
+          "exists": true,
+          "orientation": "NORTH",
+          "surface": 0
+        }
+      },
+      "parking": {
+        "parkingSpaceCount": {
+          "indoor": 0,
+          "outdoor": 0,
+          "total": 0
+        }
+      },
+      "phase": {
+        "fr": "string",
+        "nl": "string",
+        "en": "string"
+      },
+      "privateEquipment": {
+        "hasArmoredDoor": true,
+        "hasAirConditioning": true,
+        "hasDoorPhone": true,
+        "hasInternet": true,
+        "hasCableTV": true,
+        "hasVisiophone": true
+      },
+      "showerRoom": {
+        "count": 0
+      },
+      "specificities": {
+        "BRI": {
+          "internalFixturesAndFittings": "string",
+          "miscellaneousFixturesAndFittings": "string"
+        },
+        "SME": {
+          "office": {
+            "exists": true,
+            "surface": 0
+          },
+          "workSpace": {
+            "exists": true,
+            "surface": 0
+          }
+        },
+        "industrial": {
+          "accessDoorCount": 0,
+          "coveredBaysCount": 0,
+          "loadingBayCount": 0,
+          "loadingBayWithLiftingDeviceCount": 0,
+          "maxAvailableHeight": 0,
+          "minAvailableHeight": 0,
+          "sectionalDoorCount": 0,
+          "slidingDoorCount": 0
+        },
+        "largeEnterprise": {
+          "hasReceptionDesk": true,
+          "showroomSurface": 0,
+          "availableFloorSurface": 0
+        },
+        "shop": {
+          "goodWillPrice": 0,
+          "hasGoodwill": true,
+          "shopWindowWidth": 0
+        }
+      },
+      "subtype": "AGRICULTURAL_AREA",
+      "title": "string",
+      "toilet": {
+        "count": 0
+      },
+      "type": "APARTMENT",
+      "wellnessEquipment": {
+        "hasJacuzzi": true,
+        "hasSauna": true,
+        "hasSwimmingPool": true,
+        "hasTennisCourt": true
+      }
+    },
+    "publication": {
+      "activationDate": "string",
+      "creationDate": "string",
+      "deactivationDate": "string",
+      "expirationDate": "string",
+      "lastModificationDate": "string",
+      "visualisationOption": "L"
+    },
+    "media": {
+      "files": {
+        "floorPlans": "string",
+        "specifications": "string"
+      },
+      "pictures": {
+        "count": 0,
+        "baseUrl": "string",
+        "items": [
+          {
+            "orientation": "string",
+            "relativeUrl": {
+              "small": "string",
+              "large": "string",
+              "medium": "string"
+            }
+          }
+        ]
+      },
+      "iw360": {
+        "url": "string"
+      },
+      "virtualExperience": {
+        "url": "string"
+      }
+    },
+    "transaction": {
+      "availabilityDate": "string",
+      "availabilityPeriodType": "UPON_EXCHANGE_OF_DEEDS",
+      "certificates": {
+        "carbonEmission": 0,
+        "epc": {
+          "alternativeDescriptions": {
+            "en": "string",
+            "fr": "string",
+            "nl": "string"
+          },
+          "description": "string",
+          "reportReference": "string",
+          "score": "string",
+          "logoUrl": "string",
+          "renovationObligation": true
+        },
+        "primaryEnergyConsumption": {
+          "perSqm": 0,
+          "yearlyTheoreticalTotal": 0
+        }
+      },
+      "investor": {
+        "rentalIncome": {
+          "date": "2019-03-15T11:30:00Z",
+          "description": "Yearly rental price excluding charges",
+          "isVatIncluded": true,
+          "priceInformation": "LUMP_SUM",
+          "vatPercent": 21,
+          "vatValue": 10000
+        },
+        "isInvestmentProperty": true,
+        "currentMonthlyRentalIncome": 0,
+        "occupancyRate": 0
